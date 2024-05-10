@@ -8,7 +8,12 @@ const NavBar = (props) => {
       display: "flex",
       alignItems: "center",
       justifyContent: "center",
-    }}>
+      WebkitOverflowScrolling: "touch",
+      position: "sticky",
+      top: "0",
+      zIndex: "50"
+  }}>
+  
       <div
         className="navbarr"
         style={{
